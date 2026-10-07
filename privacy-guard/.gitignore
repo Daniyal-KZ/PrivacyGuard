@@ -1,0 +1,16 @@
+node_modules
+.nuxt
+.output
+*.log
+.DS_Store
+data/
+.env
+.env.*
+!.env.example
+.cache/
+.temp/
+dist/
+*.tmp
+Thumbs.db
+Desktop.ini
+.openai/

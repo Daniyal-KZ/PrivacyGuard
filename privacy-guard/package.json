@@ -1,0 +1,22 @@
+{
+  "name": "privacy-guard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --host 127.0.0.1 --port 4173",
+    "build": "nuxt build",
+    "start": "node scripts/start.mjs"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.2.0",
+    "ffmpeg-static": "^5.3.0",
+    "nuxt": "^3.19.3",
+    "sharp": "^0.35.5",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.2"
+  }
+}
